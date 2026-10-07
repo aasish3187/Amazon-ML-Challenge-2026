@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software in your research or applications, please cite it as below."
+title: "Lossless Gated Tri-Ensemble and Dual-Index Graph Closure for Large-Scale Entity Resolution"
+authors:
+  - family-names: "Aasish"
+    given-names: "A."
+abstract: "A high-throughput, precision-calibrated multi-source Entity Resolution engine for 1.73M+ heterogeneous commercial entities evaluated under the Macro F0.5 metric in Amazon ML Challenge 2026."
+repository-code: "https://github.com/aasish3187/Amazon-ML-Challenge-2026"
+keywords:
+  - "entity resolution"
+  - "record linkage"
+  - "machine learning"
+  - "gradient boosted trees"
+  - "tri-ensemble"
+  - "blocking"
+  - "amazon ml challenge"
+license: "MIT"
+date-released: 2026-10-07
+version: "1.0.0"
