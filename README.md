@@ -2,11 +2,12 @@
 
 <div align="center">
 
+[![CI & Pipeline Audit](https://github.com/aasish3187/Amazon-ML-Challenge-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/aasish3187/Amazon-ML-Challenge-2026/actions)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![Metric](https://img.shields.io/badge/Macro%20F0.5-0.9975%20(US)%20%7C%200.9258%20(IN)-success.svg?style=flat&logo=target)](https://github.com/aasish3187/Amazon-ML-Challenge-2026)
 [![Ensemble](https://img.shields.io/badge/Ensemble-LightGBM%20%2B%20XGBoost%20%2B%20CatBoost-orange.svg?logo=scikit-learn)](https://github.com/aasish3187/Amazon-ML-Challenge-2026)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Validation](https://img.shields.io/badge/Submission%20Audit-100%25%20PASS-brightgreen.svg?logo=checkmarx)](https://github.com/aasish3187/Amazon-ML-Challenge-2026)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Submission Audit](https://img.shields.io/badge/Submission%20Audit-100%25%20PASS-brightgreen.svg?logo=checkmarx)](https://github.com/aasish3187/Amazon-ML-Challenge-2026)
 
 **A high-performance, precision-calibrated, multi-source Entity Resolution system consolidating 1.73M+ commercial records across international multilingual domains.**
 
@@ -164,6 +165,8 @@ python student_resource/utils/validate_submission.py \
 ## 📂 Repository File Structure
 
 ```text
+├── .github/workflows/
+│   └── ci.yml                         # Automated continuous integration & verification
 ├── src/
 │   ├── ultra_championship_pipeline.py  # Production streaming prediction pipeline (lossless gating + checkpointing)
 │   ├── train_ensemble.py              # Tri-Ensemble trainer (LightGBM, XGBoost, CatBoost)
@@ -178,6 +181,7 @@ python student_resource/utils/validate_submission.py \
 │   └── models.pkl                     # Calibrated base LightGBM booster
 ├── Documentation_template.md          # Comprehensive technical report
 ├── requirements.txt                   # Conflict-free dependency specifications
+├── LICENSE                            # MIT License
 └── README.md                          # Championship repository documentation
 ```
 
