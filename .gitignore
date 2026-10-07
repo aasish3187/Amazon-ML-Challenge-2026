@@ -1,0 +1,21 @@
+# Large Datasets and Downloads (>100MB violates GitHub limit)
+*.zip
+*.mp4
+student_resource/
+partitions/
+6ab10eb3b23ba_student_resource*/
+
+# Large TSV Outputs and Zips
+output/*.tsv
+output/*.zip
+!output/models*.pkl
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+catboost_info/
+.venv/
+env/
+.idea/
+.vscode/
